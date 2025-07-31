@@ -2,16 +2,6 @@
 
 ASP.NET Core Web API projesi olan **Survivor API**, yarışmacılar (Competitors) ve kategoriler (Categories) arasında ilişkilendirme yapan basit bir CRUD uygulamasıdır. Proje Entity Framework Core ile **Code First** yaklaşımına göre tasarlanmıştır.
 
-## İçerik
-
-- [Projeye Genel Bakış](#projeye-genel-bakış)
-- [Teknolojiler](#teknolojiler)
-- [Kurulum](#kurulum)
-- [Veritabanı](#veritabanı)
-- [API Endpointleri](#api-endpointleri)
-- [Katkı ve Lisans](#katkı-ve-lisans)
-
----
 
 ## Projeye Genel Bakış
 
@@ -62,8 +52,8 @@ Bu proje, temel CRUD işlemlerini RESTful API yapısında gerçekleştirmek üze
 
 
 🔗 İlişki
-Bir kategori → Birden fazla yarışmacıya sahip olabilir.
-(One-to-Many / Category - Competitors)
+
+Bir kategori → Birden fazla yarışmacıya sahip olabilir: (One-to-Many / Category - Competitors)
 
 
 
